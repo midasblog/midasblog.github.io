@@ -1,114 +1,85 @@
-<!DOCTYPE html>
-<html lang="id">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homepage Bersih</title>
-    <style>
-        /* Gaya dasar untuk mereset dan merapikan tampilan */
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f9;
-            color: #333;
-        }
-        
-        header {
-            background-color: #ffffff;
-            padding: 20px;
-            text-align: center;
-            border-bottom: 1px solid #ddd;
-            margin-bottom: 20px;
-        }
+<!DOCTYPE HTML>
+<!--
+	Phantom by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Homepage Bersih</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+		<!-- Wrapper -->
+			<div id="wrapper">
 
-        /* Layout dua kolom: Konten Utama & Sidebar */
-        .container {
-            display: flex;
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 20px;
-            gap: 30px;
-        }
+				<!-- Header -->
+					<header id="header">
+						<div class="inner">
 
-        .main-content {
-            flex: 3;
-            background-color: #ffffff;
-            padding: 30px;
-            border-radius: 8px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
-        }
+							<!-- Logo -->
+								<a href="index.html" class="logo">
+									<span class="symbol"><img src="images/logo.svg" alt="" /></span><span class="title">Websiteku</span>
+								</a>
 
-        .sidebar {
-            flex: 1;
-            background-color: #ffffff;
-            padding: 30px;
-            border-radius: 8px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
-            height: fit-content;
-        }
+							<!-- Nav (Menu samping) -->
+								<nav>
+									<ul>
+										<li><a href="#menu">Menu</a></li>
+									</ul>
+								</nav>
 
-        /* Styling Sidebar & Kategori */
-        .sidebar h3 {
-            margin-top: 0;
-            padding-bottom: 10px;
-            border-bottom: 2px solid #eee;
-        }
+						</div>
+					</header>
 
-        .kategori-text {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-        }
+				<!-- Menu / Sidebar -->
+					<nav id="menu">
+						<h2>Kategori</h2>
+						<ul style="list-style: none; padding-left: 0;">
+							<li style="padding: 10px 0; border-bottom: 1px solid rgba(255, 255, 255, 0.1);">Relationship</li>
+							<li style="padding: 10px 0; border-bottom: 1px solid rgba(255, 255, 255, 0.1);">Family</li>
+							<li style="padding: 10px 0; border-bottom: 1px solid rgba(255, 255, 255, 0.1);">Self Growth</li>
+							<li style="padding: 10px 0; border-bottom: 1px solid rgba(255, 255, 255, 0.1);">Spiritual Journey</li>
+						</ul>
+					</nav>
 
-        .kategori-text li {
-            padding: 12px 0;
-            border-bottom: 1px solid #f0f0f0;
-            color: #666; /* Warna abu-abu untuk menandakan ini hanya teks, bukan link */
-        }
+				<!-- Main / Homepage -->
+					<div id="main">
+						<div class="inner">
+							<header>
+								<h1>Artikel Terbaru</h1>
+								<p>Homepage sudah bersih. Ruang di bawah ini sudah disiapkan khusus untuk artikel terbarumu.</p>
+							</header>
+							
+							<!-- Area untuk artikel baru -->
+							<section class="tiles">
+								
+								<!-- KOSONG: Menunggu artikel barumu dimasukkan ke sini -->
 
-        .kategori-text li:last-child {
-            border-bottom: none;
-        }
+							</section>
+						</div>
+					</div>
 
-        /* Placeholder untuk artikel baru */
-        .tempat-artikel-baru {
-            border: 2px dashed #ccc;
-            padding: 50px;
-            text-align: center;
-            border-radius: 8px;
-            color: #888;
-        }
-    </style>
-</head>
-<body>
+				<!-- Footer -->
+					<footer id="footer">
+						<div class="inner">
+							<ul class="copyright">
+								<li>&copy; Untitled. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+					</footer>
 
-    <header>
-        <h1>Website Baru</h1>
-    </header>
+			</div>
 
-    <div class="container">
-        <!-- Area untuk Artikel Terbaru di Homepage -->
-        <main class="main-content">
-            <h2>Artikel Terbaru</h2>
-            
-            <div class="tempat-artikel-baru">
-                <p>Homepage sudah bersih. Siap untuk menerima artikel terbarumu di sini.</p>
-            </div>
-        </main>
+		<!-- Scripts (Jangan dihapus agar fungsi menu tetap berjalan) -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
 
-        <!-- Area Sidebar -->
-        <aside class="sidebar">
-            <h3>Kategori</h3>
-            <!-- Hanya teks, belum ada isi atau link -->
-            <ul class="kategori-text">
-                <li>Kategori 1</li>
-                <li>Kategori 2</li>
-                <li>Kategori 3</li>
-                <li>Kategori 4</li>
-            </ul>
-        </aside>
-    </div>
-
-</body>
+	</body>
 </html>
